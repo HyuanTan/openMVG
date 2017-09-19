@@ -98,7 +98,7 @@ RANSAC requires the choice of a threshold T, which must be balanced:
 
 AC-Ransac [ACRANSAC]_ uses the a contrario methodology in order to find a model that best fits the
 data with a confidence threshold T that adapts automatically to noise. It so finds a model and its
-associated noise. If there is too much noise, the a contrario method returns that no model was
+associated noise. If there is too much noise, then a contrario method returns that no model was
 found.
 
 .. figure:: ACRansac.png
